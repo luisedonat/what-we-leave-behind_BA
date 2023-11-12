@@ -1,0 +1,560 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void Player_Controller::Update()
+extern void Player_Controller_Update_mEAD6C288459CBF178D967B0CA0FA3B9A6E5457B7 (void);
+// 0x00000002 System.Void Player_Controller::.ctor()
+extern void Player_Controller__ctor_mC09AEE57C03C0C2DA561DAC9547512BFCEA01702 (void);
+// 0x00000003 System.Void AnchorFeedbackScript::Awake()
+extern void AnchorFeedbackScript_Awake_m8C7C5106D96097F43537AA4ED7E17629808B8BE4 (void);
+// 0x00000004 System.Void AnchorFeedbackScript::Start()
+extern void AnchorFeedbackScript_Start_m8633B37353754E7EA06489C1B19A7451706EE40D (void);
+// 0x00000005 System.Void AnchorFeedbackScript::AnchorModuleScript_OnStartASASession()
+extern void AnchorFeedbackScript_AnchorModuleScript_OnStartASASession_m1C0208D946F37B6FABDC1D8D392F40EF6162325C (void);
+// 0x00000006 System.Void AnchorFeedbackScript::AnchorModuleScript_OnEndASASession()
+extern void AnchorFeedbackScript_AnchorModuleScript_OnEndASASession_m44EB1F2F07C6617DDECFB86FF7806198D4DE5997 (void);
+// 0x00000007 System.Void AnchorFeedbackScript::AnchorModuleScript_OnCreateAnchorStarted()
+extern void AnchorFeedbackScript_AnchorModuleScript_OnCreateAnchorStarted_m3804F2E06F1481EBDD885C0EC8DDEEF974DC4025 (void);
+// 0x00000008 System.Void AnchorFeedbackScript::AnchorModuleScript_OnCreateAnchorSucceeded()
+extern void AnchorFeedbackScript_AnchorModuleScript_OnCreateAnchorSucceeded_m42E9F331602E2F6941EBCBB24D64A502AA4BE698 (void);
+// 0x00000009 System.Void AnchorFeedbackScript::AnchorModuleScript_OnCreateAnchorFailed()
+extern void AnchorFeedbackScript_AnchorModuleScript_OnCreateAnchorFailed_m6870E07E4F937ECE2AB3B4B52D4B81E01FD6CFFC (void);
+// 0x0000000A System.Void AnchorFeedbackScript::AnchorModuleScript_OnCreateLocalAnchor()
+extern void AnchorFeedbackScript_AnchorModuleScript_OnCreateLocalAnchor_m126A81B3DD3604B1C7AE5FFC233928DB8E1192F4 (void);
+// 0x0000000B System.Void AnchorFeedbackScript::AnchorModuleScript_OnRemoveLocalAnchor()
+extern void AnchorFeedbackScript_AnchorModuleScript_OnRemoveLocalAnchor_m2C10AABEB867CA1CD4EF43ACD5E3162A7034FF8D (void);
+// 0x0000000C System.Void AnchorFeedbackScript::AnchorModuleScript_OnFindASAAnchor()
+extern void AnchorFeedbackScript_AnchorModuleScript_OnFindASAAnchor_mDAC84A6D053DF688EACCE64D562BB052D0972765 (void);
+// 0x0000000D System.Void AnchorFeedbackScript::AnchorModuleScript_OnASAAnchorLocated()
+extern void AnchorFeedbackScript_AnchorModuleScript_OnASAAnchorLocated_m62B31964A1E7E3A95B76D1E6D4FBCDBC6934EB01 (void);
+// 0x0000000E System.Void AnchorFeedbackScript::.ctor()
+extern void AnchorFeedbackScript__ctor_m9DB66C384CAA23363AA1B58971A7D9EEB243439F (void);
+// 0x0000000F System.Void AnchorModuleScript::Start()
+extern void AnchorModuleScript_Start_mFBE9F27E302E395093F56B907EE29613BEDB5A4F (void);
+// 0x00000010 System.Void AnchorModuleScript::Update()
+extern void AnchorModuleScript_Update_m73B821FCF903C4D4996A1CCD8980859B16CECD89 (void);
+// 0x00000011 System.Void AnchorModuleScript::OnDestroy()
+extern void AnchorModuleScript_OnDestroy_m5E5C1EF97883D304B71AF7DA2DC44722CD541F0D (void);
+// 0x00000012 System.Void AnchorModuleScript::StartAzureSession()
+extern void AnchorModuleScript_StartAzureSession_mE0DE4CD1D9D1AC9A39CB3639AD349FE34A0CCDB2 (void);
+// 0x00000013 System.Void AnchorModuleScript::StopAzureSession()
+extern void AnchorModuleScript_StopAzureSession_mC6B5843F849B5644C1284327C4A5FDE3476F6A4A (void);
+// 0x00000014 System.Void AnchorModuleScript::CreateAzureAnchor(UnityEngine.GameObject)
+extern void AnchorModuleScript_CreateAzureAnchor_mC1B80FAF523304BC6F8CF3569EA530D35285A53B (void);
+// 0x00000015 System.Void AnchorModuleScript::RemoveLocalAnchor(UnityEngine.GameObject)
+extern void AnchorModuleScript_RemoveLocalAnchor_m778A9ACBF51C57013126B2D77DC7D66EE7029919 (void);
+// 0x00000016 System.Void AnchorModuleScript::FindAzureAnchor(System.String)
+extern void AnchorModuleScript_FindAzureAnchor_m196572032AD1ABFDC99646EB5EC5CADE8B2E33F8 (void);
+// 0x00000017 System.Void AnchorModuleScript::DeleteAzureAnchor()
+extern void AnchorModuleScript_DeleteAzureAnchor_mED2B07FEDB0CA7B49E2F58B838C699F2051689BE (void);
+// 0x00000018 System.Void AnchorModuleScript::SaveAzureAnchorIdToDisk()
+extern void AnchorModuleScript_SaveAzureAnchorIdToDisk_mDC61452065EB769DD04D8917764C278E470E7A37 (void);
+// 0x00000019 System.Void AnchorModuleScript::GetAzureAnchorIdFromDisk()
+extern void AnchorModuleScript_GetAzureAnchorIdFromDisk_mFDCEE50EC71AC86EFA284416C6A82C4427911582 (void);
+// 0x0000001A System.Void AnchorModuleScript::ShareAzureAnchorIdToNetwork()
+extern void AnchorModuleScript_ShareAzureAnchorIdToNetwork_m4FA0D227017FDF14ABC7FE515FAFCA704ACC7C87 (void);
+// 0x0000001B System.Void AnchorModuleScript::GetAzureAnchorIdFromNetwork()
+extern void AnchorModuleScript_GetAzureAnchorIdFromNetwork_mD30FB0E386DC4A73B668C1147935F208B99D0479 (void);
+// 0x0000001C System.Void AnchorModuleScript::CloudManager_AnchorLocated(System.Object,Microsoft.Azure.SpatialAnchors.AnchorLocatedEventArgs)
+extern void AnchorModuleScript_CloudManager_AnchorLocated_m4901EA6011DEB0AB2D36E65CA39854E9F9D4AF26 (void);
+// 0x0000001D System.Void AnchorModuleScript::QueueOnUpdate(System.Action)
+extern void AnchorModuleScript_QueueOnUpdate_m6CCB426D379767DBB1876F81F7510C0F16465F8D (void);
+// 0x0000001E System.Collections.IEnumerator AnchorModuleScript::GetSharedAzureAnchorIDCoroutine(System.String)
+extern void AnchorModuleScript_GetSharedAzureAnchorIDCoroutine_mD8F93F5CFE0735475DFC9812335C117414208457 (void);
+// 0x0000001F System.Void AnchorModuleScript::add_OnStartASASession(AnchorModuleScript/StartASASessionDelegate)
+extern void AnchorModuleScript_add_OnStartASASession_m9E1F126DFF9DE26602B62250B2525EF3FD8873EA (void);
+// 0x00000020 System.Void AnchorModuleScript::remove_OnStartASASession(AnchorModuleScript/StartASASessionDelegate)
+extern void AnchorModuleScript_remove_OnStartASASession_m7A99EB51CB4AA53E306BD7161A054466CC14CB0F (void);
+// 0x00000021 System.Void AnchorModuleScript::add_OnEndASASession(AnchorModuleScript/EndASASessionDelegate)
+extern void AnchorModuleScript_add_OnEndASASession_mC42AB0B84878682D0610DBBD8DE563ED101BAB8D (void);
+// 0x00000022 System.Void AnchorModuleScript::remove_OnEndASASession(AnchorModuleScript/EndASASessionDelegate)
+extern void AnchorModuleScript_remove_OnEndASASession_m48A1D28B60921A565048325984084CF05899550D (void);
+// 0x00000023 System.Void AnchorModuleScript::add_OnCreateAnchorStarted(AnchorModuleScript/CreateAnchorDelegate)
+extern void AnchorModuleScript_add_OnCreateAnchorStarted_m290AEAF30C103B0FE2F2954261B161122AF460CC (void);
+// 0x00000024 System.Void AnchorModuleScript::remove_OnCreateAnchorStarted(AnchorModuleScript/CreateAnchorDelegate)
+extern void AnchorModuleScript_remove_OnCreateAnchorStarted_mF4734B1784E83F0A6DE263BF832ADFA1D6AA8891 (void);
+// 0x00000025 System.Void AnchorModuleScript::add_OnCreateAnchorSucceeded(AnchorModuleScript/CreateAnchorDelegate)
+extern void AnchorModuleScript_add_OnCreateAnchorSucceeded_m2B97E028C8CB1F40CA8C470F6A705D406FBAAA8F (void);
+// 0x00000026 System.Void AnchorModuleScript::remove_OnCreateAnchorSucceeded(AnchorModuleScript/CreateAnchorDelegate)
+extern void AnchorModuleScript_remove_OnCreateAnchorSucceeded_m597DCF9B72826687D8AB6B56577C6626460949C1 (void);
+// 0x00000027 System.Void AnchorModuleScript::add_OnCreateAnchorFailed(AnchorModuleScript/CreateAnchorDelegate)
+extern void AnchorModuleScript_add_OnCreateAnchorFailed_m0D63C171B5CDE942BD811EEB4BAE607BF2B706A0 (void);
+// 0x00000028 System.Void AnchorModuleScript::remove_OnCreateAnchorFailed(AnchorModuleScript/CreateAnchorDelegate)
+extern void AnchorModuleScript_remove_OnCreateAnchorFailed_mBEF0CF8B5AF568E0547729AB5D42036BBD557C40 (void);
+// 0x00000029 System.Void AnchorModuleScript::add_OnCreateLocalAnchor(AnchorModuleScript/CreateLocalAnchorDelegate)
+extern void AnchorModuleScript_add_OnCreateLocalAnchor_m90DC5E7F24EBADD06F73A7DA8DD24820AB9428CB (void);
+// 0x0000002A System.Void AnchorModuleScript::remove_OnCreateLocalAnchor(AnchorModuleScript/CreateLocalAnchorDelegate)
+extern void AnchorModuleScript_remove_OnCreateLocalAnchor_mF30CF49094AB87B4EDD5B83DC1D8A1F2423575DF (void);
+// 0x0000002B System.Void AnchorModuleScript::add_OnRemoveLocalAnchor(AnchorModuleScript/RemoveLocalAnchorDelegate)
+extern void AnchorModuleScript_add_OnRemoveLocalAnchor_m8C730185093BB514F7EBFFEC742F4EEE222C4E6F (void);
+// 0x0000002C System.Void AnchorModuleScript::remove_OnRemoveLocalAnchor(AnchorModuleScript/RemoveLocalAnchorDelegate)
+extern void AnchorModuleScript_remove_OnRemoveLocalAnchor_m72122C75147589814951FAD4ACF15EF5BE5CD41A (void);
+// 0x0000002D System.Void AnchorModuleScript::add_OnFindASAAnchor(AnchorModuleScript/FindAnchorDelegate)
+extern void AnchorModuleScript_add_OnFindASAAnchor_m1FDC5B6B678C0C1C033466257B43B08C087590EB (void);
+// 0x0000002E System.Void AnchorModuleScript::remove_OnFindASAAnchor(AnchorModuleScript/FindAnchorDelegate)
+extern void AnchorModuleScript_remove_OnFindASAAnchor_mA25D92B8EFCA5557F3575F446747741EAAC888C5 (void);
+// 0x0000002F System.Void AnchorModuleScript::add_OnASAAnchorLocated(AnchorModuleScript/AnchorLocatedDelegate)
+extern void AnchorModuleScript_add_OnASAAnchorLocated_m9912B081D7CF6F7BFB8A9D82C7FDD3A893C38FAC (void);
+// 0x00000030 System.Void AnchorModuleScript::remove_OnASAAnchorLocated(AnchorModuleScript/AnchorLocatedDelegate)
+extern void AnchorModuleScript_remove_OnASAAnchorLocated_m36541F05B4C456E131368E31E6439301F74928EE (void);
+// 0x00000031 System.Void AnchorModuleScript::add_OnDeleteASAAnchor(AnchorModuleScript/DeleteASAAnchorDelegate)
+extern void AnchorModuleScript_add_OnDeleteASAAnchor_m1884E831956AB59EC774AB213EF4EEA8985DEF32 (void);
+// 0x00000032 System.Void AnchorModuleScript::remove_OnDeleteASAAnchor(AnchorModuleScript/DeleteASAAnchorDelegate)
+extern void AnchorModuleScript_remove_OnDeleteASAAnchor_m65E2D188E27BDCE82ABAD2430C113E957C7AAAE0 (void);
+// 0x00000033 System.Void AnchorModuleScript::.ctor()
+extern void AnchorModuleScript__ctor_m758023C408A657AD13AF0FCD075D9720CDDC4211 (void);
+// 0x00000034 System.Void AnchorModuleScript/StartASASessionDelegate::.ctor(System.Object,System.IntPtr)
+extern void StartASASessionDelegate__ctor_m9D427688C3705D2DBC2B1F1B512AD63DC630174E (void);
+// 0x00000035 System.Void AnchorModuleScript/StartASASessionDelegate::Invoke()
+extern void StartASASessionDelegate_Invoke_m45223B8A76264C5AD2C10E0068BB1E6115C74898 (void);
+// 0x00000036 System.IAsyncResult AnchorModuleScript/StartASASessionDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern void StartASASessionDelegate_BeginInvoke_mD2D1E587CACD9D0F043027E0D2B72DD4FEFB68C3 (void);
+// 0x00000037 System.Void AnchorModuleScript/StartASASessionDelegate::EndInvoke(System.IAsyncResult)
+extern void StartASASessionDelegate_EndInvoke_mB711351D9CEA770550C66456BBA17E1A7066E113 (void);
+// 0x00000038 System.Void AnchorModuleScript/EndASASessionDelegate::.ctor(System.Object,System.IntPtr)
+extern void EndASASessionDelegate__ctor_mCEB47632974ECB3802740517303F1784F27FC33E (void);
+// 0x00000039 System.Void AnchorModuleScript/EndASASessionDelegate::Invoke()
+extern void EndASASessionDelegate_Invoke_m6C360E6B6D453CB6909E259993C990802BA98613 (void);
+// 0x0000003A System.IAsyncResult AnchorModuleScript/EndASASessionDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern void EndASASessionDelegate_BeginInvoke_m052A51473B60FE826B9A7BA832A1C678752833D9 (void);
+// 0x0000003B System.Void AnchorModuleScript/EndASASessionDelegate::EndInvoke(System.IAsyncResult)
+extern void EndASASessionDelegate_EndInvoke_m1F7184B0119F0C0E09404D1DD0C84039BD51468E (void);
+// 0x0000003C System.Void AnchorModuleScript/CreateAnchorDelegate::.ctor(System.Object,System.IntPtr)
+extern void CreateAnchorDelegate__ctor_m5FB74DEA4AE88293C06705290538C53F870404BA (void);
+// 0x0000003D System.Void AnchorModuleScript/CreateAnchorDelegate::Invoke()
+extern void CreateAnchorDelegate_Invoke_m04854CF72C1189DF92AC3721645745CAC0A5A46D (void);
+// 0x0000003E System.IAsyncResult AnchorModuleScript/CreateAnchorDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern void CreateAnchorDelegate_BeginInvoke_m7223440DD7A6138AD1A2006F66CBBF828CFB1EE0 (void);
+// 0x0000003F System.Void AnchorModuleScript/CreateAnchorDelegate::EndInvoke(System.IAsyncResult)
+extern void CreateAnchorDelegate_EndInvoke_mD6CB12A5C01C1969420EAD6114AF1A9A972FCE04 (void);
+// 0x00000040 System.Void AnchorModuleScript/CreateLocalAnchorDelegate::.ctor(System.Object,System.IntPtr)
+extern void CreateLocalAnchorDelegate__ctor_mAAD201999767CC679BB6938B1DB042DE0E3E65BD (void);
+// 0x00000041 System.Void AnchorModuleScript/CreateLocalAnchorDelegate::Invoke()
+extern void CreateLocalAnchorDelegate_Invoke_m567AD8D9AA96A42F930DC5CE80FEFBB6C3B8288F (void);
+// 0x00000042 System.IAsyncResult AnchorModuleScript/CreateLocalAnchorDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern void CreateLocalAnchorDelegate_BeginInvoke_m312DDDD72D5C559323A044C7497C4C81A184E9AF (void);
+// 0x00000043 System.Void AnchorModuleScript/CreateLocalAnchorDelegate::EndInvoke(System.IAsyncResult)
+extern void CreateLocalAnchorDelegate_EndInvoke_m8927B83EF93B4B9F3FBCEA1E825A350094713A0D (void);
+// 0x00000044 System.Void AnchorModuleScript/RemoveLocalAnchorDelegate::.ctor(System.Object,System.IntPtr)
+extern void RemoveLocalAnchorDelegate__ctor_m3583EDF10B64499FECF07E3906CB8E8CDAF7084C (void);
+// 0x00000045 System.Void AnchorModuleScript/RemoveLocalAnchorDelegate::Invoke()
+extern void RemoveLocalAnchorDelegate_Invoke_mDE3FC06E7812F6374D403B629D800D6FD2C2F1BD (void);
+// 0x00000046 System.IAsyncResult AnchorModuleScript/RemoveLocalAnchorDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern void RemoveLocalAnchorDelegate_BeginInvoke_m1445301D7DF64AA6D908750360E94870BFE0A148 (void);
+// 0x00000047 System.Void AnchorModuleScript/RemoveLocalAnchorDelegate::EndInvoke(System.IAsyncResult)
+extern void RemoveLocalAnchorDelegate_EndInvoke_mCA219DBEE9E2D466B6BF2DAB7B7BCF7A0AF6EC4D (void);
+// 0x00000048 System.Void AnchorModuleScript/FindAnchorDelegate::.ctor(System.Object,System.IntPtr)
+extern void FindAnchorDelegate__ctor_m4E4AE8E63A5932F12B26B246C37EFBC5CDD170E8 (void);
+// 0x00000049 System.Void AnchorModuleScript/FindAnchorDelegate::Invoke()
+extern void FindAnchorDelegate_Invoke_mFDF2FE513B8150280949A5B20B456DEFB11D70C3 (void);
+// 0x0000004A System.IAsyncResult AnchorModuleScript/FindAnchorDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern void FindAnchorDelegate_BeginInvoke_mE0AF6C5526E5D65CEC381888AEB28F658EAFAC48 (void);
+// 0x0000004B System.Void AnchorModuleScript/FindAnchorDelegate::EndInvoke(System.IAsyncResult)
+extern void FindAnchorDelegate_EndInvoke_m560106CE5454CD670233A809653CF03125D135E6 (void);
+// 0x0000004C System.Void AnchorModuleScript/AnchorLocatedDelegate::.ctor(System.Object,System.IntPtr)
+extern void AnchorLocatedDelegate__ctor_m65D7C380783E0F5B49F4D59E5D2AD88969A65AF1 (void);
+// 0x0000004D System.Void AnchorModuleScript/AnchorLocatedDelegate::Invoke()
+extern void AnchorLocatedDelegate_Invoke_mFAB4D550DD52EC5CB81467911F20F3AE0645346B (void);
+// 0x0000004E System.IAsyncResult AnchorModuleScript/AnchorLocatedDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern void AnchorLocatedDelegate_BeginInvoke_mC1E0AF54A704F3C0642AA23FD947633A02364E53 (void);
+// 0x0000004F System.Void AnchorModuleScript/AnchorLocatedDelegate::EndInvoke(System.IAsyncResult)
+extern void AnchorLocatedDelegate_EndInvoke_m44D4D7E6BB3358A3CAB46BDFECC4F34309FAF4CA (void);
+// 0x00000050 System.Void AnchorModuleScript/DeleteASAAnchorDelegate::.ctor(System.Object,System.IntPtr)
+extern void DeleteASAAnchorDelegate__ctor_m207B762CC3BF99A4B0DCB3C33B23096C4CD7ECC5 (void);
+// 0x00000051 System.Void AnchorModuleScript/DeleteASAAnchorDelegate::Invoke()
+extern void DeleteASAAnchorDelegate_Invoke_mCB11AF4379DB50FC161DF2DCD5F09B43CB951F6E (void);
+// 0x00000052 System.IAsyncResult AnchorModuleScript/DeleteASAAnchorDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern void DeleteASAAnchorDelegate_BeginInvoke_mF6907845BDFCEEFEF74ADFAAF08CBF2CEE43ADE4 (void);
+// 0x00000053 System.Void AnchorModuleScript/DeleteASAAnchorDelegate::EndInvoke(System.IAsyncResult)
+extern void DeleteASAAnchorDelegate_EndInvoke_m5A19B52E0D9C8C049A75944826FA38610435DE9D (void);
+// 0x00000054 System.Void AnchorModuleScript/<StartAzureSession>d__10::MoveNext()
+extern void U3CStartAzureSessionU3Ed__10_MoveNext_m16C487F1603A6E90783F84F3FB10318A4BD759CA (void);
+// 0x00000055 System.Void AnchorModuleScript/<StartAzureSession>d__10::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CStartAzureSessionU3Ed__10_SetStateMachine_mE0BB517ABC18D2A555575DE4631CE6D696670CEC (void);
+// 0x00000056 System.Void AnchorModuleScript/<StopAzureSession>d__11::MoveNext()
+extern void U3CStopAzureSessionU3Ed__11_MoveNext_m53568A327D690830CE831EB06DE0A86F56C5A5BD (void);
+// 0x00000057 System.Void AnchorModuleScript/<StopAzureSession>d__11::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CStopAzureSessionU3Ed__11_SetStateMachine_mFC63EE2822C81670061FFFEF31036302590ACEB7 (void);
+// 0x00000058 System.Void AnchorModuleScript/<>c__DisplayClass12_0::.ctor()
+extern void U3CU3Ec__DisplayClass12_0__ctor_m8ED23E723D686D9C93BC994DDDAAD096E47ABEC5 (void);
+// 0x00000059 System.Void AnchorModuleScript/<>c__DisplayClass12_0::<CreateAzureAnchor>b__0()
+extern void U3CU3Ec__DisplayClass12_0_U3CCreateAzureAnchorU3Eb__0_m6EA669B26ED8D71712AE858612CACE9E8141726E (void);
+// 0x0000005A System.Void AnchorModuleScript/<CreateAzureAnchor>d__12::MoveNext()
+extern void U3CCreateAzureAnchorU3Ed__12_MoveNext_mC1B632079A5305FA9229D420159F6AD9C5AC6BC2 (void);
+// 0x0000005B System.Void AnchorModuleScript/<CreateAzureAnchor>d__12::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CCreateAzureAnchorU3Ed__12_SetStateMachine_m4ABA370B1D57092957935F9E5C98E674DA2D2E63 (void);
+// 0x0000005C System.Void AnchorModuleScript/<DeleteAzureAnchor>d__15::MoveNext()
+extern void U3CDeleteAzureAnchorU3Ed__15_MoveNext_mDC48040A5AA9BA2FBF8C6F0B3678FCFCCE438947 (void);
+// 0x0000005D System.Void AnchorModuleScript/<DeleteAzureAnchor>d__15::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CDeleteAzureAnchorU3Ed__15_SetStateMachine_m44A3D5CEE788CADDE87C1352F5BA77A1DF27A345 (void);
+// 0x0000005E System.Void AnchorModuleScript/<>c__DisplayClass20_0::.ctor()
+extern void U3CU3Ec__DisplayClass20_0__ctor_m44951180EB04327D7082884EA23064FEFA503757 (void);
+// 0x0000005F System.Void AnchorModuleScript/<>c__DisplayClass20_0::<CloudManager_AnchorLocated>b__1()
+extern void U3CU3Ec__DisplayClass20_0_U3CCloudManager_AnchorLocatedU3Eb__1_m7C20203076F8EA8F6A2068E176EC9545636170AE (void);
+// 0x00000060 System.Void AnchorModuleScript/<>c__DisplayClass20_0::<CloudManager_AnchorLocated>b__2()
+extern void U3CU3Ec__DisplayClass20_0_U3CCloudManager_AnchorLocatedU3Eb__2_m7F283394F35126FE98DCE57DC49B82720716059C (void);
+// 0x00000061 System.Void AnchorModuleScript/<>c::.cctor()
+extern void U3CU3Ec__cctor_m5AC2E6FC709218D26C6DD25B9129C8530A7E2D1D (void);
+// 0x00000062 System.Void AnchorModuleScript/<>c::.ctor()
+extern void U3CU3Ec__ctor_m536152BE87B22D0313FBECB2D9062B85BB2B09FB (void);
+// 0x00000063 System.Void AnchorModuleScript/<>c::<CloudManager_AnchorLocated>b__20_0()
+extern void U3CU3Ec_U3CCloudManager_AnchorLocatedU3Eb__20_0_mBC253625FC451C81030F7F4818B57733108C3352 (void);
+// 0x00000064 System.Void AnchorModuleScript/<GetSharedAzureAnchorIDCoroutine>d__22::.ctor(System.Int32)
+extern void U3CGetSharedAzureAnchorIDCoroutineU3Ed__22__ctor_m8A70FB0A84ED05E1FC5067F9A89FEBC393995640 (void);
+// 0x00000065 System.Void AnchorModuleScript/<GetSharedAzureAnchorIDCoroutine>d__22::System.IDisposable.Dispose()
+extern void U3CGetSharedAzureAnchorIDCoroutineU3Ed__22_System_IDisposable_Dispose_mBF9C76A542D12FD26B3B2C35BD7F613BA027E689 (void);
+// 0x00000066 System.Boolean AnchorModuleScript/<GetSharedAzureAnchorIDCoroutine>d__22::MoveNext()
+extern void U3CGetSharedAzureAnchorIDCoroutineU3Ed__22_MoveNext_m0DC1463C45C7C9CE195E34D143E010FE6FA5819D (void);
+// 0x00000067 System.Void AnchorModuleScript/<GetSharedAzureAnchorIDCoroutine>d__22::<>m__Finally1()
+extern void U3CGetSharedAzureAnchorIDCoroutineU3Ed__22_U3CU3Em__Finally1_m19BCFD07B99F4AB91495F6D5AB5D3EFFEA388391 (void);
+// 0x00000068 System.Object AnchorModuleScript/<GetSharedAzureAnchorIDCoroutine>d__22::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CGetSharedAzureAnchorIDCoroutineU3Ed__22_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m10AF44D214262D297500C71236F254A9EE91B5A5 (void);
+// 0x00000069 System.Void AnchorModuleScript/<GetSharedAzureAnchorIDCoroutine>d__22::System.Collections.IEnumerator.Reset()
+extern void U3CGetSharedAzureAnchorIDCoroutineU3Ed__22_System_Collections_IEnumerator_Reset_m7D4FB4DB3AE19A95DDA172F3F14EE86AAA3883D4 (void);
+// 0x0000006A System.Object AnchorModuleScript/<GetSharedAzureAnchorIDCoroutine>d__22::System.Collections.IEnumerator.get_Current()
+extern void U3CGetSharedAzureAnchorIDCoroutineU3Ed__22_System_Collections_IEnumerator_get_Current_mF7EBAEEA4BC1C5BDFDDAB3E59B22C3569B2C5ADD (void);
+// 0x0000006B System.Void KeyboardScript::OpenKeyboard()
+extern void KeyboardScript_OpenKeyboard_m6FE80A69810998DF446CB0B80B45EE28791AA140 (void);
+// 0x0000006C System.Void KeyboardScript::Update()
+extern void KeyboardScript_Update_m4C9A190EC930ED099773A2837D680DBBFCF4BBC0 (void);
+// 0x0000006D System.Void KeyboardScript::.ctor()
+extern void KeyboardScript__ctor_mF17DD71565651C997838FFB6EB7911E5FD739A34 (void);
+// 0x0000006E System.Void OpenFiles::ToggleObject()
+extern void OpenFiles_ToggleObject_m71636B404C9E56C7334ECDC243EAC46C2B7B76B6 (void);
+// 0x0000006F System.Void OpenFiles::.ctor()
+extern void OpenFiles__ctor_m7343A37E9651647B0D5AB9249B513CB44DB0CC83 (void);
+// 0x00000070 System.Void NewBehaviourScript::Start()
+extern void NewBehaviourScript_Start_mDEAA416D3A6676A79851DDF6B62D676E53372A87 (void);
+// 0x00000071 System.Void NewBehaviourScript::Update()
+extern void NewBehaviourScript_Update_m68CAC9D7524B9FA1DFCA3F99BA694CD73147209B (void);
+// 0x00000072 System.Void NewBehaviourScript::.ctor()
+extern void NewBehaviourScript__ctor_mD2E080DE77BCDB61B6D2EC8AD996FAE611B97F3C (void);
+// 0x00000073 System.Void SoundOnTouch::Start()
+extern void SoundOnTouch_Start_m3B4D4834BDC3883D2281B3EA245CE4F5FF5B1A5A (void);
+// 0x00000074 System.Void SoundOnTouch::Update()
+extern void SoundOnTouch_Update_mE94D94070BDABF8AC4A746EBA741A505A25932C8 (void);
+// 0x00000075 System.Void SoundOnTouch::.ctor()
+extern void SoundOnTouch__ctor_mFA4D9CD38B7B43BA0D07FDA5FE9C72093FA91FB5 (void);
+// 0x00000076 System.Void SpawnableManagerScript::Start()
+extern void SpawnableManagerScript_Start_mBB9A50D5C46D53BF1DF7DECDD4D1BCC9C68E90A5 (void);
+// 0x00000077 System.Void SpawnableManagerScript::Update()
+extern void SpawnableManagerScript_Update_mA053404F7E9C4EB2FE2A57BE9BCA418ED9FAD6B3 (void);
+// 0x00000078 System.Void SpawnableManagerScript::.ctor()
+extern void SpawnableManagerScript__ctor_m1135C256F3B8D012F3D818ACBDEF461E548BED44 (void);
+// 0x00000079 System.Void MRTK.Tutorials.AzureSpatialAnchors.DebugWindow::Start()
+extern void DebugWindow_Start_mE4DB4982DB85A70C2B2E0DB3528249AC0F326FA2 (void);
+// 0x0000007A System.Void MRTK.Tutorials.AzureSpatialAnchors.DebugWindow::OnDestroy()
+extern void DebugWindow_OnDestroy_mCF6E877DFC0EFBA82A32169CAA288EC49FDA5775 (void);
+// 0x0000007B System.Void MRTK.Tutorials.AzureSpatialAnchors.DebugWindow::HandleLog(System.String,System.String,UnityEngine.LogType)
+extern void DebugWindow_HandleLog_m979E071474C595A8B1848C110C45F0B946EE5BBC (void);
+// 0x0000007C System.Void MRTK.Tutorials.AzureSpatialAnchors.DebugWindow::.ctor()
+extern void DebugWindow__ctor_m283AC06C16E0FB054BF57249D8CB64F24E82FA2D (void);
+// 0x0000007D System.Void MRTK.Tutorials.AzureSpatialAnchors.DisableDiagnosticsSystem::.ctor()
+extern void DisableDiagnosticsSystem__ctor_m586116B337F12DF5FE5CB804EECAD6D504D33DB6 (void);
+static Il2CppMethodPointer s_methodPointers[125] = 
+{
+	Player_Controller_Update_mEAD6C288459CBF178D967B0CA0FA3B9A6E5457B7,
+	Player_Controller__ctor_mC09AEE57C03C0C2DA561DAC9547512BFCEA01702,
+	AnchorFeedbackScript_Awake_m8C7C5106D96097F43537AA4ED7E17629808B8BE4,
+	AnchorFeedbackScript_Start_m8633B37353754E7EA06489C1B19A7451706EE40D,
+	AnchorFeedbackScript_AnchorModuleScript_OnStartASASession_m1C0208D946F37B6FABDC1D8D392F40EF6162325C,
+	AnchorFeedbackScript_AnchorModuleScript_OnEndASASession_m44EB1F2F07C6617DDECFB86FF7806198D4DE5997,
+	AnchorFeedbackScript_AnchorModuleScript_OnCreateAnchorStarted_m3804F2E06F1481EBDD885C0EC8DDEEF974DC4025,
+	AnchorFeedbackScript_AnchorModuleScript_OnCreateAnchorSucceeded_m42E9F331602E2F6941EBCBB24D64A502AA4BE698,
+	AnchorFeedbackScript_AnchorModuleScript_OnCreateAnchorFailed_m6870E07E4F937ECE2AB3B4B52D4B81E01FD6CFFC,
+	AnchorFeedbackScript_AnchorModuleScript_OnCreateLocalAnchor_m126A81B3DD3604B1C7AE5FFC233928DB8E1192F4,
+	AnchorFeedbackScript_AnchorModuleScript_OnRemoveLocalAnchor_m2C10AABEB867CA1CD4EF43ACD5E3162A7034FF8D,
+	AnchorFeedbackScript_AnchorModuleScript_OnFindASAAnchor_mDAC84A6D053DF688EACCE64D562BB052D0972765,
+	AnchorFeedbackScript_AnchorModuleScript_OnASAAnchorLocated_m62B31964A1E7E3A95B76D1E6D4FBCDBC6934EB01,
+	AnchorFeedbackScript__ctor_m9DB66C384CAA23363AA1B58971A7D9EEB243439F,
+	AnchorModuleScript_Start_mFBE9F27E302E395093F56B907EE29613BEDB5A4F,
+	AnchorModuleScript_Update_m73B821FCF903C4D4996A1CCD8980859B16CECD89,
+	AnchorModuleScript_OnDestroy_m5E5C1EF97883D304B71AF7DA2DC44722CD541F0D,
+	AnchorModuleScript_StartAzureSession_mE0DE4CD1D9D1AC9A39CB3639AD349FE34A0CCDB2,
+	AnchorModuleScript_StopAzureSession_mC6B5843F849B5644C1284327C4A5FDE3476F6A4A,
+	AnchorModuleScript_CreateAzureAnchor_mC1B80FAF523304BC6F8CF3569EA530D35285A53B,
+	AnchorModuleScript_RemoveLocalAnchor_m778A9ACBF51C57013126B2D77DC7D66EE7029919,
+	AnchorModuleScript_FindAzureAnchor_m196572032AD1ABFDC99646EB5EC5CADE8B2E33F8,
+	AnchorModuleScript_DeleteAzureAnchor_mED2B07FEDB0CA7B49E2F58B838C699F2051689BE,
+	AnchorModuleScript_SaveAzureAnchorIdToDisk_mDC61452065EB769DD04D8917764C278E470E7A37,
+	AnchorModuleScript_GetAzureAnchorIdFromDisk_mFDCEE50EC71AC86EFA284416C6A82C4427911582,
+	AnchorModuleScript_ShareAzureAnchorIdToNetwork_m4FA0D227017FDF14ABC7FE515FAFCA704ACC7C87,
+	AnchorModuleScript_GetAzureAnchorIdFromNetwork_mD30FB0E386DC4A73B668C1147935F208B99D0479,
+	AnchorModuleScript_CloudManager_AnchorLocated_m4901EA6011DEB0AB2D36E65CA39854E9F9D4AF26,
+	AnchorModuleScript_QueueOnUpdate_m6CCB426D379767DBB1876F81F7510C0F16465F8D,
+	AnchorModuleScript_GetSharedAzureAnchorIDCoroutine_mD8F93F5CFE0735475DFC9812335C117414208457,
+	AnchorModuleScript_add_OnStartASASession_m9E1F126DFF9DE26602B62250B2525EF3FD8873EA,
+	AnchorModuleScript_remove_OnStartASASession_m7A99EB51CB4AA53E306BD7161A054466CC14CB0F,
+	AnchorModuleScript_add_OnEndASASession_mC42AB0B84878682D0610DBBD8DE563ED101BAB8D,
+	AnchorModuleScript_remove_OnEndASASession_m48A1D28B60921A565048325984084CF05899550D,
+	AnchorModuleScript_add_OnCreateAnchorStarted_m290AEAF30C103B0FE2F2954261B161122AF460CC,
+	AnchorModuleScript_remove_OnCreateAnchorStarted_mF4734B1784E83F0A6DE263BF832ADFA1D6AA8891,
+	AnchorModuleScript_add_OnCreateAnchorSucceeded_m2B97E028C8CB1F40CA8C470F6A705D406FBAAA8F,
+	AnchorModuleScript_remove_OnCreateAnchorSucceeded_m597DCF9B72826687D8AB6B56577C6626460949C1,
+	AnchorModuleScript_add_OnCreateAnchorFailed_m0D63C171B5CDE942BD811EEB4BAE607BF2B706A0,
+	AnchorModuleScript_remove_OnCreateAnchorFailed_mBEF0CF8B5AF568E0547729AB5D42036BBD557C40,
+	AnchorModuleScript_add_OnCreateLocalAnchor_m90DC5E7F24EBADD06F73A7DA8DD24820AB9428CB,
+	AnchorModuleScript_remove_OnCreateLocalAnchor_mF30CF49094AB87B4EDD5B83DC1D8A1F2423575DF,
+	AnchorModuleScript_add_OnRemoveLocalAnchor_m8C730185093BB514F7EBFFEC742F4EEE222C4E6F,
+	AnchorModuleScript_remove_OnRemoveLocalAnchor_m72122C75147589814951FAD4ACF15EF5BE5CD41A,
+	AnchorModuleScript_add_OnFindASAAnchor_m1FDC5B6B678C0C1C033466257B43B08C087590EB,
+	AnchorModuleScript_remove_OnFindASAAnchor_mA25D92B8EFCA5557F3575F446747741EAAC888C5,
+	AnchorModuleScript_add_OnASAAnchorLocated_m9912B081D7CF6F7BFB8A9D82C7FDD3A893C38FAC,
+	AnchorModuleScript_remove_OnASAAnchorLocated_m36541F05B4C456E131368E31E6439301F74928EE,
+	AnchorModuleScript_add_OnDeleteASAAnchor_m1884E831956AB59EC774AB213EF4EEA8985DEF32,
+	AnchorModuleScript_remove_OnDeleteASAAnchor_m65E2D188E27BDCE82ABAD2430C113E957C7AAAE0,
+	AnchorModuleScript__ctor_m758023C408A657AD13AF0FCD075D9720CDDC4211,
+	StartASASessionDelegate__ctor_m9D427688C3705D2DBC2B1F1B512AD63DC630174E,
+	StartASASessionDelegate_Invoke_m45223B8A76264C5AD2C10E0068BB1E6115C74898,
+	StartASASessionDelegate_BeginInvoke_mD2D1E587CACD9D0F043027E0D2B72DD4FEFB68C3,
+	StartASASessionDelegate_EndInvoke_mB711351D9CEA770550C66456BBA17E1A7066E113,
+	EndASASessionDelegate__ctor_mCEB47632974ECB3802740517303F1784F27FC33E,
+	EndASASessionDelegate_Invoke_m6C360E6B6D453CB6909E259993C990802BA98613,
+	EndASASessionDelegate_BeginInvoke_m052A51473B60FE826B9A7BA832A1C678752833D9,
+	EndASASessionDelegate_EndInvoke_m1F7184B0119F0C0E09404D1DD0C84039BD51468E,
+	CreateAnchorDelegate__ctor_m5FB74DEA4AE88293C06705290538C53F870404BA,
+	CreateAnchorDelegate_Invoke_m04854CF72C1189DF92AC3721645745CAC0A5A46D,
+	CreateAnchorDelegate_BeginInvoke_m7223440DD7A6138AD1A2006F66CBBF828CFB1EE0,
+	CreateAnchorDelegate_EndInvoke_mD6CB12A5C01C1969420EAD6114AF1A9A972FCE04,
+	CreateLocalAnchorDelegate__ctor_mAAD201999767CC679BB6938B1DB042DE0E3E65BD,
+	CreateLocalAnchorDelegate_Invoke_m567AD8D9AA96A42F930DC5CE80FEFBB6C3B8288F,
+	CreateLocalAnchorDelegate_BeginInvoke_m312DDDD72D5C559323A044C7497C4C81A184E9AF,
+	CreateLocalAnchorDelegate_EndInvoke_m8927B83EF93B4B9F3FBCEA1E825A350094713A0D,
+	RemoveLocalAnchorDelegate__ctor_m3583EDF10B64499FECF07E3906CB8E8CDAF7084C,
+	RemoveLocalAnchorDelegate_Invoke_mDE3FC06E7812F6374D403B629D800D6FD2C2F1BD,
+	RemoveLocalAnchorDelegate_BeginInvoke_m1445301D7DF64AA6D908750360E94870BFE0A148,
+	RemoveLocalAnchorDelegate_EndInvoke_mCA219DBEE9E2D466B6BF2DAB7B7BCF7A0AF6EC4D,
+	FindAnchorDelegate__ctor_m4E4AE8E63A5932F12B26B246C37EFBC5CDD170E8,
+	FindAnchorDelegate_Invoke_mFDF2FE513B8150280949A5B20B456DEFB11D70C3,
+	FindAnchorDelegate_BeginInvoke_mE0AF6C5526E5D65CEC381888AEB28F658EAFAC48,
+	FindAnchorDelegate_EndInvoke_m560106CE5454CD670233A809653CF03125D135E6,
+	AnchorLocatedDelegate__ctor_m65D7C380783E0F5B49F4D59E5D2AD88969A65AF1,
+	AnchorLocatedDelegate_Invoke_mFAB4D550DD52EC5CB81467911F20F3AE0645346B,
+	AnchorLocatedDelegate_BeginInvoke_mC1E0AF54A704F3C0642AA23FD947633A02364E53,
+	AnchorLocatedDelegate_EndInvoke_m44D4D7E6BB3358A3CAB46BDFECC4F34309FAF4CA,
+	DeleteASAAnchorDelegate__ctor_m207B762CC3BF99A4B0DCB3C33B23096C4CD7ECC5,
+	DeleteASAAnchorDelegate_Invoke_mCB11AF4379DB50FC161DF2DCD5F09B43CB951F6E,
+	DeleteASAAnchorDelegate_BeginInvoke_mF6907845BDFCEEFEF74ADFAAF08CBF2CEE43ADE4,
+	DeleteASAAnchorDelegate_EndInvoke_m5A19B52E0D9C8C049A75944826FA38610435DE9D,
+	U3CStartAzureSessionU3Ed__10_MoveNext_m16C487F1603A6E90783F84F3FB10318A4BD759CA,
+	U3CStartAzureSessionU3Ed__10_SetStateMachine_mE0BB517ABC18D2A555575DE4631CE6D696670CEC,
+	U3CStopAzureSessionU3Ed__11_MoveNext_m53568A327D690830CE831EB06DE0A86F56C5A5BD,
+	U3CStopAzureSessionU3Ed__11_SetStateMachine_mFC63EE2822C81670061FFFEF31036302590ACEB7,
+	U3CU3Ec__DisplayClass12_0__ctor_m8ED23E723D686D9C93BC994DDDAAD096E47ABEC5,
+	U3CU3Ec__DisplayClass12_0_U3CCreateAzureAnchorU3Eb__0_m6EA669B26ED8D71712AE858612CACE9E8141726E,
+	U3CCreateAzureAnchorU3Ed__12_MoveNext_mC1B632079A5305FA9229D420159F6AD9C5AC6BC2,
+	U3CCreateAzureAnchorU3Ed__12_SetStateMachine_m4ABA370B1D57092957935F9E5C98E674DA2D2E63,
+	U3CDeleteAzureAnchorU3Ed__15_MoveNext_mDC48040A5AA9BA2FBF8C6F0B3678FCFCCE438947,
+	U3CDeleteAzureAnchorU3Ed__15_SetStateMachine_m44A3D5CEE788CADDE87C1352F5BA77A1DF27A345,
+	U3CU3Ec__DisplayClass20_0__ctor_m44951180EB04327D7082884EA23064FEFA503757,
+	U3CU3Ec__DisplayClass20_0_U3CCloudManager_AnchorLocatedU3Eb__1_m7C20203076F8EA8F6A2068E176EC9545636170AE,
+	U3CU3Ec__DisplayClass20_0_U3CCloudManager_AnchorLocatedU3Eb__2_m7F283394F35126FE98DCE57DC49B82720716059C,
+	U3CU3Ec__cctor_m5AC2E6FC709218D26C6DD25B9129C8530A7E2D1D,
+	U3CU3Ec__ctor_m536152BE87B22D0313FBECB2D9062B85BB2B09FB,
+	U3CU3Ec_U3CCloudManager_AnchorLocatedU3Eb__20_0_mBC253625FC451C81030F7F4818B57733108C3352,
+	U3CGetSharedAzureAnchorIDCoroutineU3Ed__22__ctor_m8A70FB0A84ED05E1FC5067F9A89FEBC393995640,
+	U3CGetSharedAzureAnchorIDCoroutineU3Ed__22_System_IDisposable_Dispose_mBF9C76A542D12FD26B3B2C35BD7F613BA027E689,
+	U3CGetSharedAzureAnchorIDCoroutineU3Ed__22_MoveNext_m0DC1463C45C7C9CE195E34D143E010FE6FA5819D,
+	U3CGetSharedAzureAnchorIDCoroutineU3Ed__22_U3CU3Em__Finally1_m19BCFD07B99F4AB91495F6D5AB5D3EFFEA388391,
+	U3CGetSharedAzureAnchorIDCoroutineU3Ed__22_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m10AF44D214262D297500C71236F254A9EE91B5A5,
+	U3CGetSharedAzureAnchorIDCoroutineU3Ed__22_System_Collections_IEnumerator_Reset_m7D4FB4DB3AE19A95DDA172F3F14EE86AAA3883D4,
+	U3CGetSharedAzureAnchorIDCoroutineU3Ed__22_System_Collections_IEnumerator_get_Current_mF7EBAEEA4BC1C5BDFDDAB3E59B22C3569B2C5ADD,
+	KeyboardScript_OpenKeyboard_m6FE80A69810998DF446CB0B80B45EE28791AA140,
+	KeyboardScript_Update_m4C9A190EC930ED099773A2837D680DBBFCF4BBC0,
+	KeyboardScript__ctor_mF17DD71565651C997838FFB6EB7911E5FD739A34,
+	OpenFiles_ToggleObject_m71636B404C9E56C7334ECDC243EAC46C2B7B76B6,
+	OpenFiles__ctor_m7343A37E9651647B0D5AB9249B513CB44DB0CC83,
+	NewBehaviourScript_Start_mDEAA416D3A6676A79851DDF6B62D676E53372A87,
+	NewBehaviourScript_Update_m68CAC9D7524B9FA1DFCA3F99BA694CD73147209B,
+	NewBehaviourScript__ctor_mD2E080DE77BCDB61B6D2EC8AD996FAE611B97F3C,
+	SoundOnTouch_Start_m3B4D4834BDC3883D2281B3EA245CE4F5FF5B1A5A,
+	SoundOnTouch_Update_mE94D94070BDABF8AC4A746EBA741A505A25932C8,
+	SoundOnTouch__ctor_mFA4D9CD38B7B43BA0D07FDA5FE9C72093FA91FB5,
+	SpawnableManagerScript_Start_mBB9A50D5C46D53BF1DF7DECDD4D1BCC9C68E90A5,
+	SpawnableManagerScript_Update_mA053404F7E9C4EB2FE2A57BE9BCA418ED9FAD6B3,
+	SpawnableManagerScript__ctor_m1135C256F3B8D012F3D818ACBDEF461E548BED44,
+	DebugWindow_Start_mE4DB4982DB85A70C2B2E0DB3528249AC0F326FA2,
+	DebugWindow_OnDestroy_mCF6E877DFC0EFBA82A32169CAA288EC49FDA5775,
+	DebugWindow_HandleLog_m979E071474C595A8B1848C110C45F0B946EE5BBC,
+	DebugWindow__ctor_m283AC06C16E0FB054BF57249D8CB64F24E82FA2D,
+	DisableDiagnosticsSystem__ctor_m586116B337F12DF5FE5CB804EECAD6D504D33DB6,
+};
+extern void U3CStartAzureSessionU3Ed__10_MoveNext_m16C487F1603A6E90783F84F3FB10318A4BD759CA_AdjustorThunk (void);
+extern void U3CStartAzureSessionU3Ed__10_SetStateMachine_mE0BB517ABC18D2A555575DE4631CE6D696670CEC_AdjustorThunk (void);
+extern void U3CStopAzureSessionU3Ed__11_MoveNext_m53568A327D690830CE831EB06DE0A86F56C5A5BD_AdjustorThunk (void);
+extern void U3CStopAzureSessionU3Ed__11_SetStateMachine_mFC63EE2822C81670061FFFEF31036302590ACEB7_AdjustorThunk (void);
+extern void U3CCreateAzureAnchorU3Ed__12_MoveNext_mC1B632079A5305FA9229D420159F6AD9C5AC6BC2_AdjustorThunk (void);
+extern void U3CCreateAzureAnchorU3Ed__12_SetStateMachine_m4ABA370B1D57092957935F9E5C98E674DA2D2E63_AdjustorThunk (void);
+extern void U3CDeleteAzureAnchorU3Ed__15_MoveNext_mDC48040A5AA9BA2FBF8C6F0B3678FCFCCE438947_AdjustorThunk (void);
+extern void U3CDeleteAzureAnchorU3Ed__15_SetStateMachine_m44A3D5CEE788CADDE87C1352F5BA77A1DF27A345_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[8] = 
+{
+	{ 0x06000054, U3CStartAzureSessionU3Ed__10_MoveNext_m16C487F1603A6E90783F84F3FB10318A4BD759CA_AdjustorThunk },
+	{ 0x06000055, U3CStartAzureSessionU3Ed__10_SetStateMachine_mE0BB517ABC18D2A555575DE4631CE6D696670CEC_AdjustorThunk },
+	{ 0x06000056, U3CStopAzureSessionU3Ed__11_MoveNext_m53568A327D690830CE831EB06DE0A86F56C5A5BD_AdjustorThunk },
+	{ 0x06000057, U3CStopAzureSessionU3Ed__11_SetStateMachine_mFC63EE2822C81670061FFFEF31036302590ACEB7_AdjustorThunk },
+	{ 0x0600005A, U3CCreateAzureAnchorU3Ed__12_MoveNext_mC1B632079A5305FA9229D420159F6AD9C5AC6BC2_AdjustorThunk },
+	{ 0x0600005B, U3CCreateAzureAnchorU3Ed__12_SetStateMachine_m4ABA370B1D57092957935F9E5C98E674DA2D2E63_AdjustorThunk },
+	{ 0x0600005C, U3CDeleteAzureAnchorU3Ed__15_MoveNext_mDC48040A5AA9BA2FBF8C6F0B3678FCFCCE438947_AdjustorThunk },
+	{ 0x0600005D, U3CDeleteAzureAnchorU3Ed__15_SetStateMachine_m44A3D5CEE788CADDE87C1352F5BA77A1DF27A345_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[125] = 
+{
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	6771,
+	6771,
+	6771,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	3802,
+	6771,
+	6012,
+	6771,
+	6771,
+	6771,
+	6771,
+	6771,
+	6771,
+	6771,
+	6771,
+	6771,
+	6771,
+	6771,
+	6771,
+	6771,
+	6771,
+	6771,
+	6771,
+	6771,
+	6771,
+	6771,
+	6771,
+	8457,
+	3797,
+	8457,
+	2978,
+	6771,
+	3797,
+	8457,
+	2978,
+	6771,
+	3797,
+	8457,
+	2978,
+	6771,
+	3797,
+	8457,
+	2978,
+	6771,
+	3797,
+	8457,
+	2978,
+	6771,
+	3797,
+	8457,
+	2978,
+	6771,
+	3797,
+	8457,
+	2978,
+	6771,
+	3797,
+	8457,
+	2978,
+	6771,
+	8457,
+	6771,
+	8457,
+	6771,
+	8457,
+	8457,
+	8457,
+	6771,
+	8457,
+	6771,
+	8457,
+	8457,
+	8457,
+	12483,
+	8457,
+	8457,
+	6723,
+	8457,
+	8166,
+	8457,
+	8309,
+	8457,
+	8309,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	8457,
+	1978,
+	8457,
+	8457,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	125,
+	s_methodPointers,
+	8,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

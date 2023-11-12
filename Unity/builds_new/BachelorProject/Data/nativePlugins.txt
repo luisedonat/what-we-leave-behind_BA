@@ -1,0 +1,8 @@
+AudioPluginMicrosoftSpatializerCrossPlatform.dll
+CoarseRelocUW.dll
+AzureSpatialAnchors.dll
+HrtfDsp.dll
+FrozenWorldPlugin.dll
+PlaneFinding.dll
+
+openxr_loader.dll

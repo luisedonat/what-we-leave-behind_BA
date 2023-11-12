@@ -1,0 +1,7 @@
+#include "il2cpp-config.h"
+#include "C:\Studium\6. Semester\Bachelorarbeit\Hololens\azure-spatial-anchors-samples\Unity\builds_new\Il2CppOutputProject\IL2CPP\libil2cpp\gc\BoehmGC.cpp"
+#include "C:\Studium\6. Semester\Bachelorarbeit\Hololens\azure-spatial-anchors-samples\Unity\builds_new\Il2CppOutputProject\IL2CPP\libil2cpp\gc\GCHandle.cpp"
+#include "C:\Studium\6. Semester\Bachelorarbeit\Hololens\azure-spatial-anchors-samples\Unity\builds_new\Il2CppOutputProject\IL2CPP\libil2cpp\gc\GarbageCollector.cpp"
+#include "C:\Studium\6. Semester\Bachelorarbeit\Hololens\azure-spatial-anchors-samples\Unity\builds_new\Il2CppOutputProject\IL2CPP\libil2cpp\gc\NullGC.cpp"
+#include "C:\Studium\6. Semester\Bachelorarbeit\Hololens\azure-spatial-anchors-samples\Unity\builds_new\Il2CppOutputProject\IL2CPP\libil2cpp\gc\WriteBarrier.cpp"
+#include "C:\Studium\6. Semester\Bachelorarbeit\Hololens\azure-spatial-anchors-samples\Unity\builds_new\Il2CppOutputProject\IL2CPP\libil2cpp\gc\WriteBarrierValidation.cpp"

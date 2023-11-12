@@ -1,0 +1,225 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Int32 Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_GetVersion(System.Boolean,System.Int32,System.Byte*)
+extern void Engine_FrozenWorld_GetVersion_m4AD0C842B4413FE8C5D0AFC4BAB702E1C1764F08 (void);
+// 0x00000002 System.Boolean Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_GetError()
+extern void Engine_FrozenWorld_GetError_mA7228FA4DC3909CB29D1ED93852A3878056B2BF6 (void);
+// 0x00000003 System.Int32 Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_GetErrorMessage(System.Int32,System.Byte*)
+extern void Engine_FrozenWorld_GetErrorMessage_m6BAC150832D0AD8481F7D2A4429606EBCA57F20C (void);
+// 0x00000004 System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_Init()
+extern void Engine_FrozenWorld_Init_m284ED32CBEC021454152C175F3B3A20BD4544916 (void);
+// 0x00000005 System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_Destroy()
+extern void Engine_FrozenWorld_Destroy_mC81ED005FF772AC57331A6B85238F5BAAFEB7CBE (void);
+// 0x00000006 System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_Step_Init()
+extern void Engine_FrozenWorld_Step_Init_m30F9753AD2343057C6F4BD671795C27992DBDD90 (void);
+// 0x00000007 System.Int32 Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_Step_GatherSupports()
+extern void Engine_FrozenWorld_Step_GatherSupports_mDEB1B6C961F53B52705DF05A12D1E85787024E3C (void);
+// 0x00000008 System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_Step_AlignSupports()
+extern void Engine_FrozenWorld_Step_AlignSupports_m0D2F322F145BB8E305345BB3BC1A662A7A070246 (void);
+// 0x00000009 System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_GetHead(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Snapshot,Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Vector*,Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Vector*,Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Vector*)
+extern void Engine_FrozenWorld_GetHead_m3BCD45172B0565DA838D63328F2D8350E14C6B72 (void);
+// 0x0000000A System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_SetHead(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Snapshot,Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Vector*,Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Vector*,Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Vector*)
+extern void Engine_FrozenWorld_SetHead_mE58DCC2AEC430EBEF023709D3CC12CCA33570CCA (void);
+// 0x0000000B System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_GetAlignment(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Transform*)
+extern void Engine_FrozenWorld_GetAlignment_m6D853FA3BC6EBD317D76D246EC670D4DA8204C5F (void);
+// 0x0000000C System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_SetAlignment(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Transform*)
+extern void Engine_FrozenWorld_SetAlignment_mBD7FC11D555954F709F39A60DD494DCBB64E3ADA (void);
+// 0x0000000D System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_SetMostSignificantAnchorId(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Snapshot,Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_AnchorId)
+extern void Engine_FrozenWorld_SetMostSignificantAnchorId_m1232F8324A519E12FDABD93DC462452559393AFD (void);
+// 0x0000000E System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_GetMostSignificantFragmentId(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Snapshot,Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_FragmentId*)
+extern void Engine_FrozenWorld_GetMostSignificantFragmentId_m9CB8A294E843166FE6BB6FFC2AC3793C9716ABDE (void);
+// 0x0000000F System.Int32 Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_GetNumAnchors(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Snapshot)
+extern void Engine_FrozenWorld_GetNumAnchors_mEFE2B65598AEADDC7B28CC85A2CA6CEE7D83EEE5 (void);
+// 0x00000010 System.Int32 Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_GetAnchors(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Snapshot,System.Int32,Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Anchor*)
+extern void Engine_FrozenWorld_GetAnchors_m9FCEF6BFF052A1612710F99D1C52E480312209B8 (void);
+// 0x00000011 System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_AddAnchors(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Snapshot,System.Int32,Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Anchor*)
+extern void Engine_FrozenWorld_AddAnchors_m387CA0723053D310F66D5FA55BDFE0A78621D38B (void);
+// 0x00000012 System.Boolean Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_RemoveAnchor(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Snapshot,Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_AnchorId)
+extern void Engine_FrozenWorld_RemoveAnchor_mB4F5F5DFC2FC8F4759FAF1E6DB239FF373EA7266 (void);
+// 0x00000013 System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_ClearAnchors(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Snapshot)
+extern void Engine_FrozenWorld_ClearAnchors_mB62F69DBCFF1A3B3761EE380F8D16487B1DA3A51 (void);
+// 0x00000014 System.Int32 Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_GetNumEdges(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Snapshot)
+extern void Engine_FrozenWorld_GetNumEdges_m02C62379D20D4EBD953F995316AA865B1010B795 (void);
+// 0x00000015 System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_AddEdges(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Snapshot,System.Int32,Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Edge*)
+extern void Engine_FrozenWorld_AddEdges_mA09665C10C4A266187993FBF81BDEE64BC2E0A5B (void);
+// 0x00000016 System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_GetMetrics(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Metrics*)
+extern void Engine_FrozenWorld_GetMetrics_mA16748AB79D1C2EE2D7668ADAA5C99853D0579E4 (void);
+// 0x00000017 System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_Tracking_CreateFromHead(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Vector*,Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_AttachmentPoint*)
+extern void Engine_FrozenWorld_Tracking_CreateFromHead_m0BC20C62D81B395624578CC2F535738511AD76CC (void);
+// 0x00000018 System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_Tracking_CreateFromSpawner(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_AttachmentPoint*,Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Vector*,Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_AttachmentPoint*)
+extern void Engine_FrozenWorld_Tracking_CreateFromSpawner_m8C37F7F450CFFCF70F3735AE40F02B5CDF82D31E (void);
+// 0x00000019 System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_Tracking_Move(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Vector*,Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_AttachmentPoint*)
+extern void Engine_FrozenWorld_Tracking_Move_m76088C0DB253C5DE325C120E531C47C53B5E748F (void);
+// 0x0000001A System.Boolean Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_RefitMerge_Init()
+extern void Engine_FrozenWorld_RefitMerge_Init_m99C450087E5F284108865DD262AAFFA99C4A648D (void);
+// 0x0000001B System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_RefitMerge_Prepare()
+extern void Engine_FrozenWorld_RefitMerge_Prepare_m4452EB24EFEC02259576C8A91A7C2618C07F7203 (void);
+// 0x0000001C System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_RefitMerge_Apply()
+extern void Engine_FrozenWorld_RefitMerge_Apply_m938708AC9F03C339EEB10244982EDB67CF6EDA6C (void);
+// 0x0000001D System.Int32 Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_RefitMerge_GetNumAdjustedFragments()
+extern void Engine_FrozenWorld_RefitMerge_GetNumAdjustedFragments_mE86A456625441316BEB22254D887E0D58F987CD8 (void);
+// 0x0000001E System.Int32 Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_RefitMerge_GetAdjustedFragments(System.Int32,Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_RefitMerge_AdjustedFragment*)
+extern void Engine_FrozenWorld_RefitMerge_GetAdjustedFragments_m6ECD4BF871955C3AF121E25F03A9269F9D75CC89 (void);
+// 0x0000001F System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_RefitMerge_GetMergedFragmentId(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_FragmentId*)
+extern void Engine_FrozenWorld_RefitMerge_GetMergedFragmentId_m95D8DA96CB9653286BAFA8ACF6822071C5F401B1 (void);
+// 0x00000020 System.Boolean Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_RefitRefreeze_Init()
+extern void Engine_FrozenWorld_RefitRefreeze_Init_m18916C3D34E3026FE2CC57E4E7239914474CB059 (void);
+// 0x00000021 System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_RefitRefreeze_Prepare()
+extern void Engine_FrozenWorld_RefitRefreeze_Prepare_m362130FD97C821B811A128867BD0B0F012E20CE0 (void);
+// 0x00000022 System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_RefitRefreeze_Apply()
+extern void Engine_FrozenWorld_RefitRefreeze_Apply_mCF7908652EA2F5D19FDA27E9438FC44EAFB4EDA8 (void);
+// 0x00000023 System.Int32 Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_RefitRefreeze_GetNumAdjustedFragments()
+extern void Engine_FrozenWorld_RefitRefreeze_GetNumAdjustedFragments_mF484CE94CD3E22C492865143B9E88ECB5F933114 (void);
+// 0x00000024 System.Int32 Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_RefitRefreeze_GetAdjustedFragmentIds(System.Int32,Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_FragmentId*)
+extern void Engine_FrozenWorld_RefitRefreeze_GetAdjustedFragmentIds_mB83434C468072D923CD7904AFBADA4459208CDAF (void);
+// 0x00000025 System.Boolean Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_RefitRefreeze_CalcAdjustment(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_AttachmentPoint*,Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Transform*)
+extern void Engine_FrozenWorld_RefitRefreeze_CalcAdjustment_m30842129F44B053F96FF8D18CB624E68E8FD1011 (void);
+// 0x00000026 System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_RefitRefreeze_GetMergedFragmentId(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_FragmentId*)
+extern void Engine_FrozenWorld_RefitRefreeze_GetMergedFragmentId_mE1AC6A9B834D36BA31EE3EF437A5227C60C774CC (void);
+// 0x00000027 System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_Serialize_Open(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Serialize_Stream*)
+extern void Engine_FrozenWorld_Serialize_Open_m765F808AC3DC4669A4C6FCCD5D908D763F5854F7 (void);
+// 0x00000028 System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_Serialize_Gather(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Serialize_Stream*)
+extern void Engine_FrozenWorld_Serialize_Gather_m464D46AC84CE303D7893686C9F08D7E1CCFB7B8C (void);
+// 0x00000029 System.Int32 Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_Serialize_Read(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Serialize_Stream*,System.Int32,System.Byte*)
+extern void Engine_FrozenWorld_Serialize_Read_mDB2C51168DCAF8D2C489B27C7C793513968AD96A (void);
+// 0x0000002A System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_Serialize_Close(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Serialize_Stream*)
+extern void Engine_FrozenWorld_Serialize_Close_m02924D41499A87DBD0826D21C963183B6899FAFC (void);
+// 0x0000002B System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_Deserialize_Open(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Deserialize_Stream*)
+extern void Engine_FrozenWorld_Deserialize_Open_m408A95548C96EF8DB4E2AD4EDAD124FBC6FCABD9 (void);
+// 0x0000002C System.Int32 Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_Deserialize_Write(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Deserialize_Stream*,System.Int32,System.Byte*)
+extern void Engine_FrozenWorld_Deserialize_Write_m531B51954C2679E0037E92F4DBBB72D653190E4A (void);
+// 0x0000002D System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_Deserialize_Apply(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Deserialize_Stream*)
+extern void Engine_FrozenWorld_Deserialize_Apply_m12177ED04066040DC186FE37E115AA196CABC317 (void);
+// 0x0000002E System.Void Microsoft.MixedReality.FrozenWorld.Engine.Engine::FrozenWorld_Deserialize_Close(Microsoft.MixedReality.FrozenWorld.Engine.Engine/FrozenWorld_Deserialize_Stream*)
+extern void Engine_FrozenWorld_Deserialize_Close_mE7E66981453665FB6CC18BEC829C84BF3F8FF594 (void);
+static Il2CppMethodPointer s_methodPointers[46] = 
+{
+	Engine_FrozenWorld_GetVersion_m4AD0C842B4413FE8C5D0AFC4BAB702E1C1764F08,
+	Engine_FrozenWorld_GetError_mA7228FA4DC3909CB29D1ED93852A3878056B2BF6,
+	Engine_FrozenWorld_GetErrorMessage_m6BAC150832D0AD8481F7D2A4429606EBCA57F20C,
+	Engine_FrozenWorld_Init_m284ED32CBEC021454152C175F3B3A20BD4544916,
+	Engine_FrozenWorld_Destroy_mC81ED005FF772AC57331A6B85238F5BAAFEB7CBE,
+	Engine_FrozenWorld_Step_Init_m30F9753AD2343057C6F4BD671795C27992DBDD90,
+	Engine_FrozenWorld_Step_GatherSupports_mDEB1B6C961F53B52705DF05A12D1E85787024E3C,
+	Engine_FrozenWorld_Step_AlignSupports_m0D2F322F145BB8E305345BB3BC1A662A7A070246,
+	Engine_FrozenWorld_GetHead_m3BCD45172B0565DA838D63328F2D8350E14C6B72,
+	Engine_FrozenWorld_SetHead_mE58DCC2AEC430EBEF023709D3CC12CCA33570CCA,
+	Engine_FrozenWorld_GetAlignment_m6D853FA3BC6EBD317D76D246EC670D4DA8204C5F,
+	Engine_FrozenWorld_SetAlignment_mBD7FC11D555954F709F39A60DD494DCBB64E3ADA,
+	Engine_FrozenWorld_SetMostSignificantAnchorId_m1232F8324A519E12FDABD93DC462452559393AFD,
+	Engine_FrozenWorld_GetMostSignificantFragmentId_m9CB8A294E843166FE6BB6FFC2AC3793C9716ABDE,
+	Engine_FrozenWorld_GetNumAnchors_mEFE2B65598AEADDC7B28CC85A2CA6CEE7D83EEE5,
+	Engine_FrozenWorld_GetAnchors_m9FCEF6BFF052A1612710F99D1C52E480312209B8,
+	Engine_FrozenWorld_AddAnchors_m387CA0723053D310F66D5FA55BDFE0A78621D38B,
+	Engine_FrozenWorld_RemoveAnchor_mB4F5F5DFC2FC8F4759FAF1E6DB239FF373EA7266,
+	Engine_FrozenWorld_ClearAnchors_mB62F69DBCFF1A3B3761EE380F8D16487B1DA3A51,
+	Engine_FrozenWorld_GetNumEdges_m02C62379D20D4EBD953F995316AA865B1010B795,
+	Engine_FrozenWorld_AddEdges_mA09665C10C4A266187993FBF81BDEE64BC2E0A5B,
+	Engine_FrozenWorld_GetMetrics_mA16748AB79D1C2EE2D7668ADAA5C99853D0579E4,
+	Engine_FrozenWorld_Tracking_CreateFromHead_m0BC20C62D81B395624578CC2F535738511AD76CC,
+	Engine_FrozenWorld_Tracking_CreateFromSpawner_m8C37F7F450CFFCF70F3735AE40F02B5CDF82D31E,
+	Engine_FrozenWorld_Tracking_Move_m76088C0DB253C5DE325C120E531C47C53B5E748F,
+	Engine_FrozenWorld_RefitMerge_Init_m99C450087E5F284108865DD262AAFFA99C4A648D,
+	Engine_FrozenWorld_RefitMerge_Prepare_m4452EB24EFEC02259576C8A91A7C2618C07F7203,
+	Engine_FrozenWorld_RefitMerge_Apply_m938708AC9F03C339EEB10244982EDB67CF6EDA6C,
+	Engine_FrozenWorld_RefitMerge_GetNumAdjustedFragments_mE86A456625441316BEB22254D887E0D58F987CD8,
+	Engine_FrozenWorld_RefitMerge_GetAdjustedFragments_m6ECD4BF871955C3AF121E25F03A9269F9D75CC89,
+	Engine_FrozenWorld_RefitMerge_GetMergedFragmentId_m95D8DA96CB9653286BAFA8ACF6822071C5F401B1,
+	Engine_FrozenWorld_RefitRefreeze_Init_m18916C3D34E3026FE2CC57E4E7239914474CB059,
+	Engine_FrozenWorld_RefitRefreeze_Prepare_m362130FD97C821B811A128867BD0B0F012E20CE0,
+	Engine_FrozenWorld_RefitRefreeze_Apply_mCF7908652EA2F5D19FDA27E9438FC44EAFB4EDA8,
+	Engine_FrozenWorld_RefitRefreeze_GetNumAdjustedFragments_mF484CE94CD3E22C492865143B9E88ECB5F933114,
+	Engine_FrozenWorld_RefitRefreeze_GetAdjustedFragmentIds_mB83434C468072D923CD7904AFBADA4459208CDAF,
+	Engine_FrozenWorld_RefitRefreeze_CalcAdjustment_m30842129F44B053F96FF8D18CB624E68E8FD1011,
+	Engine_FrozenWorld_RefitRefreeze_GetMergedFragmentId_mE1AC6A9B834D36BA31EE3EF437A5227C60C774CC,
+	Engine_FrozenWorld_Serialize_Open_m765F808AC3DC4669A4C6FCCD5D908D763F5854F7,
+	Engine_FrozenWorld_Serialize_Gather_m464D46AC84CE303D7893686C9F08D7E1CCFB7B8C,
+	Engine_FrozenWorld_Serialize_Read_mDB2C51168DCAF8D2C489B27C7C793513968AD96A,
+	Engine_FrozenWorld_Serialize_Close_m02924D41499A87DBD0826D21C963183B6899FAFC,
+	Engine_FrozenWorld_Deserialize_Open_m408A95548C96EF8DB4E2AD4EDAD124FBC6FCABD9,
+	Engine_FrozenWorld_Deserialize_Write_m531B51954C2679E0037E92F4DBBB72D653190E4A,
+	Engine_FrozenWorld_Deserialize_Apply_m12177ED04066040DC186FE37E115AA196CABC317,
+	Engine_FrozenWorld_Deserialize_Close_mE7E66981453665FB6CC18BEC829C84BF3F8FF594,
+};
+static const int32_t s_InvokerIndices[46] = 
+{
+	10215,
+	12399,
+	11079,
+	12483,
+	12483,
+	12483,
+	12424,
+	12483,
+	9933,
+	9933,
+	12245,
+	12245,
+	11438,
+	11431,
+	11897,
+	10217,
+	10614,
+	10857,
+	12253,
+	11897,
+	10614,
+	12245,
+	11412,
+	10539,
+	11412,
+	12399,
+	12483,
+	12483,
+	12424,
+	11079,
+	12245,
+	12399,
+	12483,
+	12483,
+	12424,
+	11079,
+	10780,
+	12245,
+	12245,
+	12245,
+	10205,
+	12245,
+	12245,
+	10205,
+	12245,
+	12245,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_MixedReality_Unity_FrozenWorld_Engine_CodeGenModule;
+const Il2CppCodeGenModule g_Microsoft_MixedReality_Unity_FrozenWorld_Engine_CodeGenModule = 
+{
+	"Microsoft.MixedReality.Unity.FrozenWorld.Engine.dll",
+	46,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
