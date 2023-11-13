@@ -19,7 +19,7 @@ The repository consists of a 3D Mixed Reality application using Unity 2021.3.16.
 As this application is a Mixed Reality project, you need to fullfill the following requirements to run it:
 
 - A Windows 10 or 11 PC configured with the correct tools installed
-- Windows 10 SDK 10.0.18362.0 or later
+- Windows 10 SDK 10.0.1024.0 or later
 - Unity Hub with Unity 2021.3 or later installed and the Universal Windows Platform Build Support module added
 - A HoloLens 2 device configured for development
 
@@ -63,8 +63,16 @@ Persistent hands
 To run the application as it is, simply navigate to the builds_new folder and open the BachelorProject.sln File with Visual Studio 2019. If you added changes and need to build it again, follow these steps:
 
 1. Navigate to File -> Build Settings
-2. Make sure the following settings are active: (build settings, open scenes)
-3. Select the Build button.
+2. Make sure the following settings are active:
+   - Scenes in Build: Only the Scene called "Exercise" should be active.
+   - Make sure the Build Platform is switched to "Universal Windows Platform".
+   - Architechture: ARM 64-bit
+   - Project Build: D3D
+   - SDK Version: Latest Installed
+   - minimum Version: 10.0.1024.0
+   - Build and Run on: Local Machine
+   - Build Configuration: Release
+3. Click the Build button.
 4. In the Build Universal Windows Platform window, navigate to the folder where you want to store your build, or create a new folder and navigate to it, and then select the Select Folder button to start the build process.
 
 ## Running the Application
